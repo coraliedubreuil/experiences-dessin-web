@@ -1,0 +1,39 @@
+@media all and (min-width: 1200px){
+    body{
+        background-image: url(images/dessin0.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+}
+
+@media all and (min-width: 1100px) and (max-width: 1300px){
+    body{
+        background-image: url(images/dessin.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+}
+
+@media all and (min-width: 900px) and (max-width: 1100px){
+    body{
+        background-image: url(images/dessin2.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+}
+
+@media all and (min-width: 700px) and (max-width: 900px){
+    body{
+        background-image: url(images/dessin3.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+}
+
+@media all and (min-width: 500px) and (max-width: 700px){
+    body{
+        background-image: url(images/dessin4.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+}

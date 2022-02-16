@@ -1,0 +1,13 @@
+button a{
+    font-size: 40px;
+    text-decoration: none;
+    color: black;
+}
+
+button:hover{
+    transform: rotate(10deg);
+}
+
+a:visited{
+    text-decoration: none;
+}
