@@ -8,7 +8,7 @@ function dragstart_handler1(ev) {
     // Note : on changera "example.gif" vers une vraie image
     // (sinon l'image par défaut sera utilisée)
     let img1 = new Image();
-    img1.src = 'images/porte.png';
+    img1.src = 'images/table.png';
     ev.dataTransfer.setDragImage(img1, 10, 10);
 }
 

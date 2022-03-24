@@ -1,0 +1,57 @@
+@font-face {
+    font-family: "monor";
+    src: url("fonts/Monor_Regular.otf") format("otf");
+    font-weight: normal;
+   }
+@font-face {
+    font-family: "monor";
+    src: url("fonts/monor/monor-bold.otf") format("otf");
+    font-weight: bold;
+}
+
+img{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+
+}
+
+body{
+    font-family: "monor";
+    margin: 0;
+}
+
+.container{
+    display: flex;
+}
+
+.meteo, .saison, .heure{
+    display: flex;
+    margin-right: 20px;
+}
+
+label, small{
+    font-size: 20px;
+}
+
+.meteo input{
+    margin-left: 15px;
+}
+
+.saison label, .heure small{
+    margin-right: 5px;
+}
+
+
+/* ways of hearing - Damon Krukowski (sur le temps et la musique) (podcast)
+/* teque
+/* hors-champ? 
+
+plans et 3d dans nav?
+
+comment on rentre, comment on navigue, comment on comprend
+quand ça demarre, quand ça finit, est-ce que ça recommence?
+
+low tech
+
+cookies de connexion

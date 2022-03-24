@@ -1,5 +1,16 @@
+html{
+    cursor: col-resize;
+}
+
+
+div{
+    margin: 0 auto;
+}
+
 @media all and (min-width: 1200px){
-    body{
+    div{
+        width: 1200px;
+        height: 800px;
         background-image: url(images/dessin0.jpg);
         background-size: 100%;
         background-repeat: no-repeat;
@@ -7,7 +18,9 @@
 }
 
 @media all and (min-width: 1100px) and (max-width: 1300px){
-    body{
+    div{
+        width: 1100px;
+        height: 800px;
         background-image: url(images/dessin.jpg);
         background-size: 100%;
         background-repeat: no-repeat;
@@ -15,7 +28,9 @@
 }
 
 @media all and (min-width: 900px) and (max-width: 1100px){
-    body{
+    div{
+        width: 900px;
+        height: 800px;
         background-image: url(images/dessin2.jpg);
         background-size: 100%;
         background-repeat: no-repeat;
@@ -23,7 +38,9 @@
 }
 
 @media all and (min-width: 700px) and (max-width: 900px){
-    body{
+    div{
+        width: 700px;
+        height: 800px;
         background-image: url(images/dessin3.jpg);
         background-size: 100%;
         background-repeat: no-repeat;
@@ -31,9 +48,15 @@
 }
 
 @media all and (min-width: 500px) and (max-width: 700px){
-    body{
+    div{
+        width: 500px;
+        height: 800px;
         background-image: url(images/dessin4.jpg);
         background-size: 100%;
         background-repeat: no-repeat;
     }
 }
+
+/* mettre bg dans une div que je centre + taille en px?
+/* curseur
+/* essayer avec height

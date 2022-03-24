@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>input</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="saison">
+                <label for="choix-saison">Saison : </label>
+                <input list="liste-saisons" id="choix-saison" name="choix-saison"/>
+
+                <datalist id="liste-saisons">
+                    <option value="Hiver">
+                    <option value="Printemps">
+                    <option value="Été">
+                    <option value="Automne">
+                </datalist>
+            </div>
+
+            <div class="heure">
+                <small>Heure de la journée : </small>
+                <input type="time" id="montre" name="montre">
+            </div>
+
+            <div class="meteo">
+                <div>
+                    <input type="checkbox" id="soleil" name="soleil">
+                    <label for="scales">Ensoleillé</label>
+                </div>
+                
+                <div>
+                    <input type="checkbox" id="vent" name="vent">
+                    <label for="vent">Venteux</label>
+                </div>
+
+                <div>
+                    <input type="checkbox" id="pluie" name="pluie">
+                    <label for="pluie">Pluvieux</label>
+                </div>
+            </div>
+        </div>
+
+        <img src="/Plan de travail 1.png" alt="">
+
+    </body>
+</html>

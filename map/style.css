@@ -1,0 +1,31 @@
+@font-face {
+    font-family: "monor";
+    src: url("fonts/Monor_Regular.otf") format("otf");
+    font-weight: normal;
+   }
+@font-face {
+    font-family: "monor";
+    src: url("fonts/monor/monor-bold.otf") format("otf");
+    font-weight: bold;
+}
+
+.container{
+    width: 3000px;
+    height: 3000px;
+}
+
+p{
+    position: absolute;
+    font-size: 100px;
+    font-family: "monor";
+    left: 200px;
+    text-shadow: 0 0 30px olive;
+    color: white;
+}
+
+img{
+    width: 1500px;
+    top: -30px;
+    left: -20px;
+    position: relative;
+}
